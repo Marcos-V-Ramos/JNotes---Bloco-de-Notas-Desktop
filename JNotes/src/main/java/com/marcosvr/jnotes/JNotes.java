@@ -1,5 +1,7 @@
 package com.marcosvr.jnotes;
 
+import com.marcosvr.view.TelaPrincipalView;
+
 /**
  *
  * @author MARCOS VINICIUS
@@ -7,6 +9,7 @@ package com.marcosvr.jnotes;
 public class JNotes {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        TelaPrincipalView tpv = new TelaPrincipalView();
+        tpv.setVisible(true);
     }
 }
